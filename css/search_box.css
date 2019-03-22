@@ -1,0 +1,43 @@
+#searchbox{
+	max-height: 350px;
+	border-radius: 8px;
+	width: 480px;
+	padding: 10px;
+	background-color: #fff;
+	border: solid 1px #020202;
+	display: inline-block;
+	position: fixed;top:45px; left: 220px;
+	z-index: 9998;
+	overflow: auto;
+	-webkit-transition:all 0.5s;
+	opacity: 0.4;
+}
+#searchbox button{
+	background-color: transparent;
+	background-position: -668px -19px;
+	background-image: url(http://ssl.gstatic.com/inputtools/images/ita_sprite2.png);
+	width: 15px;
+	height: 15px;
+	border: none;
+	opacity: 0.5;
+	float: right;
+	cursor: pointer;
+	outline: 0;
+
+}
+#searchbox button:hover{
+	opacity: 1;
+}
+#searchbox #search_img{
+	width: 45px;
+    height: 45px;
+    background-position: 50% 25%;
+    background-size: cover;
+    -webkit-transition-duration: 500ms;
+    -webkit-transition-property: width, height;
+    border: 1px solid #fff;
+    border-radius: 4px;
+}
+#searchbox:hover{
+	opacity: 1;
+}

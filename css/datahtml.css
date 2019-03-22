@@ -1,0 +1,64 @@
+
+
+	.wrapper {
+		width:600px;
+		
+		border: 1px solid #bcbcbc;
+	}
+
+	.header {
+		width: 100%;
+		line-height: 50px;
+		background: #d8d8d8;
+		border-bottom: 2px dashed #bcbcbc;
+			}
+
+	.headerCont {
+		padding: 0px 25px;
+
+	}
+
+	.container {
+		width: 100%;
+	}
+
+	.inline {
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	.contList {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+
+	.profPic {
+		padding: 10px 10px;
+	}
+
+	.infoName {
+		font-size: 15px;
+		font-weight: bold;
+	}
+
+	.infoDesc {
+		font-size: 15px;
+	}
+
+	.infoPanel {
+		line-height: 25px;
+	}
+
+	.headerCont input[type="text"] {
+		width: 130px;
+	}
+
+	.profDesc {
+		margin: 20px 30px;
+	}
+
+	.error {
+		color: red;
+		text-align: center;
+	}
